@@ -11,7 +11,7 @@ export function FavouritesPage() {
             <ul className="list-none mb-10">
                 { favourites.map(f => (
                     <li key={f} className='mb-10'>
-                        <a href={f} target="_blank" className='text-lg font-bold py-3 px-5 border rounded mb-10px mt-10 hover:shadow-md hover:bg-gray-100 transition-all bg-white'>{f}</a>
+                        <a href={f} target="_blank" rel="noreferrer" className='text-lg font-bold py-3 px-5 border rounded mb-10px mt-10 hover:shadow-md hover:bg-gray-100 transition-all bg-white'>{f}</a>
                     </li>
                 )) }
             </ul>
